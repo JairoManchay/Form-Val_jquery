@@ -1,0 +1,128 @@
+.input-icon{
+    width: 10px;
+    height: 10px;
+    display: none;
+}
+.caja_completa{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: rgb(196, 193, 193);
+}
+
+/* Usuario */
+.caja_usuario{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    flex-flow: wrap column;
+    float: left;
+}
+.caja_usuario input{
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+}
+#txtUser{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+
+/* Nombre */
+.caja_nombre{
+    display: flex;
+    width: 50%;
+    float: left;
+    justify-content: center;
+    flex-flow: wrap column;
+    align-content: center;
+}
+.caja_nombre input{
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+}
+#txtNom{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+/* Contraseña */
+.caja_contraseña{
+    display: flex;
+    width: 50%;
+    float: left;
+    justify-content: center;
+    flex-flow: wrap column;
+    align-content: center;
+}
+.caja_contraseña input{
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+}
+#txtCon{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+/*Repetir contrasña*/
+.caja_repetirContra{
+    display: flex;
+    width: 50%;
+    float: left;
+    justify-content: center;
+    flex-flow: wrap column;
+    align-content: center;
+}
+.caja_repetirContra input{
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+}
+#txtReCon{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+/* boton*/
+.caja_boton{
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#btnEnviar{
+    padding: 10px 10px;
+    background: rgba(45, 236, 87, 0.933);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Jquery */
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-family: 'Lato';
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
