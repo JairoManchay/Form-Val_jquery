@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <title>Pokemon</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="row">
+        <article class="col-12 my-3 justify-content-center d-flex">
+          <table class="table w-25 table-success table-striped shadow">
+            <thead>
+              <tr>
+                <th>Cargo</th>
+                <th>Sueldo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>jefe</td>
+                <td id="sueldo1"></td>
+              </tr>
+              <tr>
+                <td>Analista</td>
+                <td id="sueldo2"></td>
+              </tr>
+              <tr>
+                <td>Programador</td>
+                <td id="sueldo3"></td>
+              </tr>
+              <tr>
+                <td>Soporte</td>
+                <td id="sueldo4"></td>
+              </tr>
+              <tr>
+                <td>Asistente</td>
+                <td id="sueldo5"></td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article class="col-12 d-flex justify-content-center">
+          <section class="">
+            <button id="boton01" class="btn btn-success">Mostrar</button>
+
+
+            <!-- Canvas para mostrar la data -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">mostrar mas informacion</button>
+
+            <article class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <section class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Datos personales </h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </section>
+                <section class="offcanvas-body">
+                    <span>Nombre: </span>
+                    <label type="text" disabled id="nombre1" class="form-control"></label>
+                    <span>Apellido:</span>
+                    <label type="text" disabled id="apellido1" class="form-control"></label>
+                    <span>Correo:</span>
+                    <label type="text" disabled id="correo1" class="form-control"></label>
+                    <span>Cargo:</span>
+                    <label type="text" disabled id="cargo1" class="form-control"></label>
+                    <hr>
+
+
+                    <span>Nombre: </span>
+                    <label type="text" disabled id="nombre2" class="form-control"></label>
+                    <span>Apellido:</span>
+                    <label type="text" disabled id="apellido2" class="form-control"></label>
+                    <span>Correo:</span>
+                    <label type="text" disabled id="correo2" class="form-control"></label>
+                    <span>Cargo:</span>
+                    <label type="text" disabled id="cargo2" class="form-control"></label>
+                    <hr>
+
+
+                    <span>Nombre: </span>
+                    <label type="text" disabled id="nombre3" class="form-control"></label>
+                    <span>Apellido:</span>
+                    <label type="text" disabled id="apellido3" class="form-control"></label>
+                    <span>Correo:</span>
+                    <label type="text" disabled id="correo3" class="form-control"></label>
+                    <span>Cargo:</span>
+                    <label type="text" disabled id="cargo3" class="form-control"></label>
+                    <hr>
+
+
+                    <span>Nombre: </span>
+                    <label type="text" disabled id="nombre4" class="form-control"></label>
+                    <span>Apellido:</span>
+                    <label type="text" disabled id="apellido4" class="form-control"></label>
+                    <span>Correo:</span>
+                    <label type="text" disabled id="correo4" class="form-control"></label>
+                    <span>Cargo:</span>
+                    <label type="text" disabled id="cargo4" class="form-control"></label>
+                    <hr>
+                </section>
+            </article>
+
+
+          </section>
+        </article>
+      </section>
+    </main>
+    <script src="./js/objeti.js"></script>
+  </body>
+</html>
